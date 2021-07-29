@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 import constants from '../constants'
 
 const { pending } = constants.status

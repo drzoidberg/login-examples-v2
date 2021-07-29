@@ -1,24 +1,27 @@
 {
-    "idleHeartbeats": 6431,
-    "navigatingHeartbeats": 1558,
-    "totalCodingHeartbeats": 11234,
+    "idleHeartbeats": 8707,
+    "navigatingHeartbeats": 2166,
+    "totalCodingHeartbeats": 13213,
     "languageHeartbeats": {
         "markdown": 499,
-        "scss": 3029,
-        "javascript": 7530,
-        "scminput": 68,
+        "scss": 3074,
+        "javascript": 9399,
+        "scminput": 133,
         "jsonc": 108
     },
     "fileHeartbeats": {
         "README.md": 499,
         "src/sass/main.scss": 248,
-        "src/index.js": 79,
+        "src/index.js": 701,
         "src/components/Login/Login.module.scss": 1210,
-        "src/components/Login/Login.js": 7451,
-        "scm/git/scm0/input": 68,
+        "src/components/Login/Login.js": 8253,
+        "scm/git/scm0/input": 133,
         "src/sass/_utilities.scss": 506,
-        "src/sass/_overrides.scss": 413,
+        "src/sass/_overrides.scss": 458,
         "src/sass/_variables.scss": 652,
-        "/home/drzoid/.config/Code/User/keybindings.json": 108
+        "/home/drzoid/.config/Code/User/keybindings.json": 108,
+        "src/components/App/App.js": 107,
+        "src/store/user/userLogin.action.js": 102,
+        "src/store/user/user.reducer.js": 236
     }
 }
