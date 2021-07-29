@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Redirect } from 'react-router-dom'
 import PropTypes from 'prop-types'
+// import { useForm } from 'react-hook-form'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
@@ -22,10 +23,10 @@ function Form() {
     return setUserTextInput(e.target.value)
   }
 
-  function handlePasswordInput(e) {
+  function passwordInputHandler(e) {
     return setPasswordInput(e.target.value)
   }
-  function handleSubmit(e) {
+  function submitHandler(e) {
     e.preventDefault()
     dispatch(userLogin({ name: userTextInput, password: passwordInput }))
   }
@@ -49,7 +50,7 @@ function Form() {
           placeholder='Contraseña'
           id='password-input'
           value={passwordInput}
-          onChange={handlePasswordInput}
+          onChange={passwordInputHandler}
         />
         <div id='forgotPassword' className='form-text'>
           <a href='#' className='text-secondary text-decoration-none'>
@@ -60,7 +61,7 @@ function Form() {
       <button
         type='submit'
         className='btn btn-lg btn-primary text-uppercase float-end fw-bold mt-4 px-5 py-2 fs-6'
-        onClick={handleSubmit}
+        onClick={submitHandler}
       >
         Iniciar sesión
       </button>
