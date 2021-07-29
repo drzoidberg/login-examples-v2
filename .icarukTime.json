@@ -1,0 +1,17 @@
+{
+    "idleHeartbeats": 1046,
+    "navigatingHeartbeats": 509,
+    "totalCodingHeartbeats": 1357,
+    "languageHeartbeats": {
+        "markdown": 343,
+        "scss": 651,
+        "javascript": 363
+    },
+    "fileHeartbeats": {
+        "README.md": 343,
+        "src/sass/main.scss": 248,
+        "src/index.js": 79,
+        "src/components/Login/Login.module.scss": 403,
+        "src/components/Login/Login.js": 284
+    }
+}

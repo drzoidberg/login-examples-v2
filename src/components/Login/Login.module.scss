@@ -1,0 +1,41 @@
+@import '../../sass/variables';
+
+.home-section {
+  background: url('../../assets/bg-ordenator.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.home-inner {
+  padding-top: 150px;
+}
+
+.check-icon {
+  color: white;
+  background: $color-dark-grey;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.tag-icon {
+  color: $color-teal-light;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.login-tagline {
+  line-height: 1.3 !important;
+}
