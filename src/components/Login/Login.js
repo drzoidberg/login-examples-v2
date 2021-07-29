@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
@@ -37,15 +37,18 @@ export default function Login() {
                   </div>
                   <div className='row'>
                     <div
-                      className={`d-flex justify-content-center ${classes['tag-icon']}`}
+                      className={`d-flex justify-content-center position-relative ${classes['tag-icon']}`}
                     >
+                      <span className='fs-4 fw-bold position-absolute top-50 start-50 translate-middle text-white'>
+                        %
+                      </span>
                       <FontAwesomeIcon icon={faTag} className='fa-4x' />
                     </div>
                   </div>
                   <div className='row text-center'>
                     <div className={classes['prices-bebore-after']}>
                       <div className='container'>
-                        <div className='row'>
+                        <div className='row my-4'>
                           <div className='col'>
                             <div className={classes['price-before']}>
                               <span
@@ -57,11 +60,7 @@ export default function Login() {
                           </div>
                           <div className='col'>
                             <div className='price-after'>
-                              <span
-                                className={`display-4 fw-bold ${classes['strikethrough']}`}
-                              >
-                                79€
-                              </span>
+                              <span className={`display-4 fw-bold`}>79€</span>
                             </div>
                           </div>
                         </div>
@@ -77,7 +76,7 @@ export default function Login() {
                             className={`fa-2x ${classes['check-icon']}`}
                           />
                         </div>
-                        <div className='p-4 align-self-end'>
+                        <div className='py-4 pe-4 align-self-end'>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Laudantium doloremque excepturi commodi corporis
                           non asperiores!
@@ -92,7 +91,7 @@ export default function Login() {
                             className={`fa-2x ${classes['check-icon']}`}
                           />
                         </div>
-                        <div className='p-4 align-self-end'>
+                        <div className='py-4 pe-4  align-self-end'>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Laudantium doloremque excepturi commodi corporis
                           non asperiores!
@@ -107,7 +106,7 @@ export default function Login() {
                             className={`fa-2x ${classes['check-icon']}`}
                           />
                         </div>
-                        <div className='p-4 align-self-end'>
+                        <div className='py-4 pe-4  align-self-end'>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Laudantium doloremque excepturi commodi corporis
                           non asperiores!
@@ -142,25 +141,19 @@ export default function Login() {
                   <div className='login-form'>
                     <form>
                       <div class='mb-3'>
-                        <label for='exampleInputEmail1' class='form-label'>
-                          Usuario
-                        </label>
                         <input
                           type='email'
                           class='form-control'
                           id='user-input'
-                          placeholder='Introduce tu nombre de usuario'
+                          placeholder='Usuario'
                         />
                       </div>
                       <div class='mb-3'>
-                        <label for='password' class='form-label'>
-                          Contraseña
-                        </label>
                         <input
                           type='password'
                           class='form-control'
                           id='password-input'
-                          placeholder='Introduce tu contraseña'
+                          placeholder='Contraseña'
                         />
                         <div id='forgotPassword' class='form-text'>
                           <a
@@ -173,7 +166,7 @@ export default function Login() {
                       </div>
                       <button
                         type='submit'
-                        class='btn btn-primary text-uppercase float-end fw-bold mt-4 px-5 py-2'
+                        class='btn btn-lg btn-primary text-uppercase float-end fw-bold mt-4 px-5 py-2 fs-6'
                       >
                         Iniciar sesión
                       </button>
