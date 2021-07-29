@@ -1,5 +1,10 @@
 //COLORS
 
-$color-dark-grey: #555;
+$color-white: #fff;
+$color-white-translucent-04: rgba(255, 255, 255, 0.4);
+$color-black: #000;
+$color-black-shadow: rgba(0, 0, 0, 0.16);
+$color-dark-grey: rgb(55, 55, 55);
+$color-dark-grey-translucent-06: rgba(85, 85, 85, 0.6);
 $color-teal: teal;
 $color-teal-light: scale-color($color-teal, $lightness: +15%);

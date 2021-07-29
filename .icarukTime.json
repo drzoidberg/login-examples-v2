@@ -1,17 +1,24 @@
 {
-    "idleHeartbeats": 2604,
-    "navigatingHeartbeats": 868,
-    "totalCodingHeartbeats": 4476,
+    "idleHeartbeats": 6078,
+    "navigatingHeartbeats": 1402,
+    "totalCodingHeartbeats": 10410,
     "languageHeartbeats": {
         "markdown": 499,
-        "scss": 651,
-        "javascript": 3326
+        "scss": 2888,
+        "javascript": 6955,
+        "scminput": 68,
+        "jsonc": 0
     },
     "fileHeartbeats": {
         "README.md": 499,
         "src/sass/main.scss": 248,
         "src/index.js": 79,
-        "src/components/Login/Login.module.scss": 403,
-        "src/components/Login/Login.js": 3247
+        "src/components/Login/Login.module.scss": 1075,
+        "src/components/Login/Login.js": 6876,
+        "scm/git/scm0/input": 68,
+        "src/sass/_utilities.scss": 506,
+        "src/sass/_overrides.scss": 407,
+        "src/sass/_variables.scss": 652,
+        "/home/drzoid/.config/Code/User/keybindings.json": 0
     }
 }
