@@ -23,5 +23,7 @@ cd ./login-examples
 npm i
 
 // for 🚀 running the project
+// 1. Switch to the specific branch you want to display
+// 2. Run the project using:
 npm start
 ```
