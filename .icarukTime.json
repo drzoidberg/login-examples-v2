@@ -1,17 +1,17 @@
 {
-    "idleHeartbeats": 2192,
-    "navigatingHeartbeats": 740,
-    "totalCodingHeartbeats": 3325,
+    "idleHeartbeats": 2604,
+    "navigatingHeartbeats": 868,
+    "totalCodingHeartbeats": 4476,
     "languageHeartbeats": {
         "markdown": 499,
         "scss": 651,
-        "javascript": 2175
+        "javascript": 3326
     },
     "fileHeartbeats": {
         "README.md": 499,
         "src/sass/main.scss": 248,
         "src/index.js": 79,
         "src/components/Login/Login.module.scss": 403,
-        "src/components/Login/Login.js": 2096
+        "src/components/Login/Login.js": 3247
     }
 }
